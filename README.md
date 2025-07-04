@@ -9,6 +9,14 @@
 
 ---
 
+## 📚 Available License Variants
+
+* 🔹 [LICENSE-RCL](./LICENSE-RCL) — For personal use only. Requires a contribution for non-commercial use. No commercial use allowed.
+* 🔹 [LICENSE-RCL-E](./LICENSE-RCL-E) — For companies generating revenue. Requires contributions equivalent to 2% of revenue.
+* 🔹 [LICENSE-RCL-EE](./LICENSE-RCL-EE) — For companies. Requires at least one meaningful contribution. No percentage requirement.
+
+---
+
 ## 1. Purpose
 
 The Reciprocal Contribution License (RCL) is a family of license **addenda** designed to encourage community contributions by requiring certain forms of contribution back to the original project based on usage type (personal, commercial, enterprise).
@@ -67,14 +75,15 @@ This addendum complements the rights granted by the primary license and adds fur
 To apply this addendum to your project:
 
 1. Choose a base license (e.g., MIT, Apache-2.0, GPL).
-2. Append the relevant RCL variant as an addendum in your `LICENSE` file.
-3. Clearly state in your `README.md`:
+2. Add one of the RCL variant files (`LICENSE-RCL`, `LICENSE-RCL-E`, or `LICENSE-RCL-EE`) to your repository.
+3. In your `LICENSE` file, indicate the base license (e.g., MIT) followed by the RCL variant you’ve selected.
+4. Clearly state in your `README.md`:
 
    ```markdown
    License: MIT + RCL-E
    This project is licensed under the MIT License with the RCL-E addendum.
    Commercial use requires revenue-based contributions to the original repository.
-   See LICENSE file for details.
+   See LICENSE and LICENSE-RCL-E files for details.
    ```
 
 ---
@@ -86,7 +95,7 @@ To apply this addendum to your project:
 ```
 Licensed under the MIT License. See full text above.
 
-RCL Addendum: Non-commercial use only. Users must submit any meaningful Contribution to the original repository. No commercial use allowed under this license. See RCL section for details.
+RCL Addendum: Non-commercial use only. Users must submit any meaningful Contribution to the original repository. No commercial use allowed under this license. See LICENSE-RCL for details.
 ```
 
 ### MIT + RCL-E (Enterprise Revenue-Based)
@@ -94,7 +103,7 @@ RCL Addendum: Non-commercial use only. Users must submit any meaningful Contribu
 ```
 Licensed under the MIT License. See full text above.
 
-RCL-E Addendum: Commercial use permitted only with Contributions equivalent to 2% of gross revenue related to the use of this project. Quarterly submissions required. See RCL-E section for obligations.
+RCL-E Addendum: Commercial use permitted only with Contributions equivalent to 2% of gross revenue related to the use of this project. Quarterly submissions required. See LICENSE-RCL-E for obligations.
 ```
 
 ### MIT + RCL-EE (Enterprise Easy)
@@ -102,7 +111,7 @@ RCL-E Addendum: Commercial use permitted only with Contributions equivalent to 2
 ```
 Licensed under the MIT License. See full text above.
 
-RCL-EE Addendum: Commercial use permitted only after contributing at least one meaningful Contribution to the original repository. See RCL-EE section for compliance details.
+RCL-EE Addendum: Commercial use permitted only after contributing at least one meaningful Contribution to the original repository. See LICENSE-RCL-EE for compliance details.
 ```
 
 ---
