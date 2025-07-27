@@ -1,8 +1,7 @@
 **Reciprocal Contribution License Addendum (RCL)**
 
-**Short name:** RCL
+**Short name:** RCL <br>
 **Variants:** RCL, RCL-E, RCL-EE
-**Effective Date:** \[\_\_\_\_\_]
 
 > ⚠️ This is not a stand-alone license. It is an **addendum** that must be used alongside a primary open-source license (e.g., MIT, Apache-2.0, GPL, etc.).
 > When combined, the combined license takes effect as: `MIT + RCL`, `Apache-2.0 + RCL-E`, etc.
@@ -125,7 +124,3 @@ Failure to comply with the contribution requirements of the relevant RCL variant
 ## 7. Disclaimer & Limitation of Liability
 
 This addendum is provided "AS IS" and without warranty of any kind. The original authors shall not be held liable for any damages arising from its use or interpretation.
-
----
-
-*End of RCL Addendum Document*
